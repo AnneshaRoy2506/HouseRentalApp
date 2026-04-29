@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HouseRentalApp">
+
+        <!-- User Activities -->
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserForgotPass2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserForgotPass1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignInActivity"
+            android:exported="false" />
+
+        <!-- Owner Activities -->
+        <activity
+            android:name=".OwnerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerForgotPass3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerForgotPass2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerForgotPass1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerSignInActivity"
+            android:exported="false" />
+
+        <!-- Admin & Core Activities -->
+        <activity
+            android:name=".AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
